@@ -8,19 +8,19 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import com.example.vknewscompose.R
 
 sealed class NavigationItem(
-    val titleResId: Int,
+    val title: String,
     val icon: ImageVector
 ) {
     object Home: NavigationItem(
-        titleResId = R.string.navigation_item_main,
+        title = "Главная",
         icon = Icons.Outlined.Home
     )
     object Favourite: NavigationItem(
-        titleResId = R.string.navigation_item_favourite,
+        title = "Избранное",
         icon = Icons.Outlined.Favorite
     )
     object Profile: NavigationItem(
-        titleResId = R.string.navigation_item_profile,
+        title = "Профиль",
         icon = Icons.Outlined.Person
     )
 }

@@ -33,7 +33,7 @@ fun MainScreen() {
                             Icon(imageVector = item.icon, contentDescription = null)
                         },
                         label = {
-                            Text(text = stringResource(item.titleResId))
+                            Text(text = item.title)
                         }
                     )
                 }
