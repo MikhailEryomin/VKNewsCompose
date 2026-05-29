@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">VkNewsCompose</string>
     <string name="text_template">Lorem Ipsum dolor sit ametm cionssdas dpsdpsad elit.</string>
+    <string name="navigation_item_main">Главная</string>
+    <string name="navigation_item_favourite">Избранное</string>
+    <string name="navigation_item_profile">Профиль</string>
 </resources>
